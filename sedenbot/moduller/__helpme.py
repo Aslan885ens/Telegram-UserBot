@@ -27,7 +27,7 @@ async def yardim(event):
         try:
             results = await event.client.inline_query(
                 tgbotusername,
-                "@SedenUserBot"
+                "YarrakUserBot"
             )
             await results[0].click(
                 event.chat_id,
